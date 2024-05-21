@@ -48,7 +48,7 @@ const useMusicPlayer = () => {
     currentTrackName:
       state.currentTrackIndex !== null &&
       state.tracks[state.currentTrackIndex.name],
-    tracklist: state.tracks,
+    trackList: state.tracks,
   };
 };
 

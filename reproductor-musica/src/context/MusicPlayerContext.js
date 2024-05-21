@@ -15,6 +15,9 @@ const MusicPlayerProvider = (props) => {
         name: "Tobu - Such Fun",
       },
     ],
+
+    currentTrackIndex: null,
+    isPlaying: false,
   });
 
   return (
